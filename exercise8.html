@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Generator</title>
+    <style>
+        body {
+            font-family: Verdana, sans-serif;
+            text-align: center;
+            margin-top: 100px;
+        }
+        select, button {
+            padding: 20px;
+            margin: 20px;
+        }
+        button {
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <!-- Dice Generator External Image -->
+    <img src="https://media.licdn.com/dms/image/v2/D4E12AQH0WQSy39dEHQ/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1683909897428?e=2147483647&v=beta&t=TCXw4LNjNPSOHoLMxYqq79pDaBvF5V8dV9c-iRGBQGk" alt="Dice Roller" height="200" width="200">
+    <h1>Dice Generator</h1>
+    <p><em>Select</em> dice and then <strong>roll</strong> dice to see the outcome.</p>
+    <select id="diceSelect">
+        <option value="6">D6 (6-sided)</option>
+        <option value="10">D10 (10-sided)</option>
+        <option value="20">D20 (20-sided)</option>
+        <option value="40">D40 (40-sided)</option>
+        <option value="50">D50 (50-sided)</option>
+        <option value="80">D80 (80-sided)</option>
+        <option value="100">D100 (100-sided)</option>
+    </select>
+    <button onclick="rollDice()">Roll Dice!</button>
+    <p id="resultDisplay"></p>
+    <footer>
+        <p>@Copyright 2024 by devsInc all rights reserved</p>
+    </footer>
+
+    <script src="exercise8.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
